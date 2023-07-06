@@ -1,0 +1,15 @@
+.input{
+    margin-bottom: 50px;
+}
+
+.input1{
+    align-self: auto;
+    width: 100px;
+    height: 20px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.input2{
+    align-self: baseline;
+}
