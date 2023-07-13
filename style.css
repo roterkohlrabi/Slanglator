@@ -12,3 +12,22 @@
 .input2{
     align-self: baseline;
 }
+
+h1 {
+color: #808080;
+font-family: Palatino;
+}
+
+h3 {
+color: #808080;
+font-family: Palatino;
+}
+
+input {
+color: black;
+font-family: Palatino
+}
+
+button {
+font-family: Palatino
+}
