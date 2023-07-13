@@ -14,15 +14,34 @@ function slanglate() {
     return;
   }
 
-  var words = input.split(' '); // Eingabe in ein Array von Wörtern aufteilen
+  var paragraphs = input.split("\n"); // Eingabe in Absätze aufteilen
 
-  var modifiedWords = words.map(function (word) {
-    // Wort aus dem zusätzlichen Array verwenden
-    var randomIndex = Math.floor(Math.random() * additionalReplacements.length);
-    return additionalReplacements[randomIndex];
+  var modifiedParagraphs = paragraphs.map(function (paragraph) {
+    if (paragraph === "") {
+      return ""; // Zeilensprünge ohne Wörter beibehalten
+    }
+
+    var words = paragraph.split(' '); // Absatz in ein Array von Wörtern aufteilen
+
+    var modifiedWords = words.map(function (word) {
+      if (replacements.hasOwnProperty(word)) {
+        var possibleReplacements = replacements[word];
+        var randomIndex = Math.floor(Math.random() * possibleReplacements.length);
+        return possibleReplacements[randomIndex];
+      } else if (additionalReplacements.includes(word)) {
+        // Wort aus dem zusätzlichen Array verwenden
+        return word;
+      } else {
+        // Wort beibehalten, wenn es nicht in der Ersetzungsliste enthalten ist
+        var randomIndex = Math.floor(Math.random() * additionalReplacements.length);
+        return additionalReplacements[randomIndex];
+      }
+    });
+
+    return modifiedWords.join(' '); // Modifizierte Wörter zu einem Absatz zusammenfügen
   });
 
-  var modifiedText = modifiedWords.join(' ');
+  var modifiedText = modifiedParagraphs.join('\n'); // Modifizierte Absätze zu einem Text zusammenfügen
 
   console.log(modifiedText); // Den Text mit den ersetzen Wörtern anzeigen
   document.getElementById("output").value = modifiedText;

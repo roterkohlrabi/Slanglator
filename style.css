@@ -8,28 +8,14 @@
     font-family: Palatino;
 }
 
-.input {
-    color: black;
-    font-family: Palatino;
-    margin-bottom: 50px;
+
+.textfield {
     width: 500px;
     height: 250px;
-    padding: 10px;
-    font-size: 14px;
-    text-align: left;
-    vertical-align: top;
-    resize: none;
-    overflow: auto;
-    vertical-align: top;
+    font-family: Palatino;
 }
 
-.output {
-    color: black;
-    font-family: Palatino;
-    margin-bottom: 50px;
-    width: 500px;
-    height: 250px;
-}
+
 
 .button {
     font-family: Palatino;

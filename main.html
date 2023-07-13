@@ -1,4 +1,8 @@
+
+<!DOCTYPE html>
+<html>
 <header>
+    <title>Slanglator!</title>
     <h1 style="text-align: center;">SLANGLATOR</h1>
 </header>
 <meta charset="UTF-8">
@@ -9,13 +13,16 @@
         <h3>Slang deine lahmen Speaks</h3>
     </div>
     <div>
-        <input type="text" id="input" class="input" placeholder="Type your incel text here!">
-        <button id="slanglate" class="slanglate" onclick="slanglate()">Slanglate!</button>
+        <textarea rows="2", cols ="10" style="resize: none;overflow: hidden;" class="textfield" id="input" placeholder="Type your incel text here..."></textarea>
+        <textarea rows="2", cols ="10" style="resize: none;overflow: hidden;" class="textfield" id="output" placeholder="Your slay text will appear here!" readonly="readonly"></textarea>
+        
     </div>
-    <input type="text" id="output" class="output" style="text-align: start;">
+    <button id="slanglate" class="slanglate" onclick="slanglate()">Slanglate!</button>
 </body>
 
 <footer>
-
+    
 </footer>
 <script src="script.js"></script>
+
+</html>
