@@ -1,4 +1,3 @@
-
 var replacements = {
   "Hallo": ["Hi", "Hey", "Guten Tag"],
   "Welt": ["Globus", "Erde", "Planet"],
@@ -9,9 +8,15 @@ var additionalReplacements = ["Assi", "bodenlos", "cringe", "dayum", "Ehrenmann"
 
 function slanglate() {
   var input = document.getElementById('input').value; // Wert des Input-Feldes abrufen
+
+  if (input === "") {
+    alert("ERROR: Bitte geben Sie etwas ein");
+    return;
+  }
+
   var words = input.split(' '); // Eingabe in ein Array von Wörtern aufteilen
 
-  var modifiedWords = words.map(function(word) {
+  var modifiedWords = words.map(function (word) {
     // Wort aus dem zusätzlichen Array verwenden
     var randomIndex = Math.floor(Math.random() * additionalReplacements.length);
     return additionalReplacements[randomIndex];
