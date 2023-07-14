@@ -1,13 +1,24 @@
-.h1 {
-    color: #808080;
+h1 {
+color: #00ff00;
     font-family: Palatino;
 }
 
-.h3 {
-    color: #808080;
-    font-family: Palatino;
+h3 {
+    color: #ff8800;
+    font-family: Courier;
 }
 
+#input {
+font-family: Palatino;
+color: #00ff00;
+font-weight: bold;
+}
+
+#output {
+font-family: Courier;
+color: #ff8800;
+font-weight: bold;
+}
 
 .textfield {
     width: 500px;
@@ -17,7 +28,7 @@
 
 
 
-.button {
+button {
     font-family: Palatino;
 }
 
