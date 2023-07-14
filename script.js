@@ -54,9 +54,9 @@ var backgroundColor = document.getElementById("background")
 
 
 lightModeBtn.onclick = function lightMode(){
-    backgroundColor.style.backgroundColor = "white" //light mode color
+    backgroundColor.style.backgroundColor = "#fff" //light mode color
 }
 
 darkModeBtn.onclick = function darkMode(){
-    backgroundColor.style.backgroundColor = "black" //dark mode color
+    backgroundColor.style.backgroundColor = "#222" //dark mode color
 }
