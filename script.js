@@ -46,3 +46,17 @@ function slanglate() {
   console.log(modifiedText); // Den Text mit den ersetzen Wörtern anzeigen
   document.getElementById("output").value = modifiedText;
 }
+
+
+var lightModeBtn = document.getElementById("lightMode")
+var darkModeBtn = document.getElementById("darkMode")
+var backgroundColor = document.getElementById("background")
+
+
+lightModeBtn.onclick = function lightMode(){
+    backgroundColor.style.backgroundColor = "white" //light mode color
+}
+
+darkModeBtn.onclick = function darkMode(){
+    backgroundColor.style.backgroundColor = "black" //dark mode color
+}

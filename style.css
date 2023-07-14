@@ -1,5 +1,9 @@
+#background {
+background-color: white;
+}
+
 h1 {
-color: #00ff00;
+color: #0c0;
     font-family: Palatino;
 }
 
@@ -10,14 +14,16 @@ h3 {
 
 #input {
 font-family: Palatino;
-color: #00ff00;
+color: #0c0;
 font-weight: bold;
+background-color: #f0f0f0;
 }
 
 #output {
 font-family: Courier;
 color: #ff8800;
 font-weight: bold;
+background-color: #f0f0f0;
 }
 
 .textfield {
@@ -58,4 +64,29 @@ button {
     background-color: #6E7A82;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
+}
+
+
+
+
+.lightMode{
+    background-color: yellow; 
+    color:black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.darkMode{
+    background-color: black; 
+    color:yellow;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.background{
+    background-color: blue;
 }
