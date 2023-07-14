@@ -19,12 +19,20 @@ font-weight: bold;
 background-color: #f0f0f0;
 }
 
+#input:hover {
+background-color: #e0e0e0;
+}
+
 #output {
 font-family: Courier;
 color: #ff8800;
 font-weight: bold;
 background-color: #f0f0f0;
 }
+
+#output:hover {
+    background-color: #e0e0e0;
+    }
 
 .textfield {
     width: 500px;
@@ -57,7 +65,7 @@ button {
 }
 
 .slanglate:hover {
-    background-color: #6E7A82
+    background-color: #004f93
 }
 
 .slanglate:active {
@@ -70,21 +78,27 @@ button {
 
 
 .lightMode{
-    background-color: yellow; 
-    color:black;
+    background-color: #fff; 
+    color: #000;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
 }
+.lightMode:hover{
+    background-color: #ccc
+}
 
 .darkMode{
-    background-color: black; 
-    color:yellow;
+    background-color: #000; 
+    color: #fff;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+.darkMode:hover{
+    color: #ccc
 }
 
 .background{
