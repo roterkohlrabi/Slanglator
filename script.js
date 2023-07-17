@@ -1,6 +1,8 @@
 var replacements = {
   "Hallo": ["Hi", "Hey", "Guten Tag"],
   "Welt": ["Globus", "Erde", "Planet"],
+
+  "abarbeiten": ["eliminieren", "löschen", "vernichten"]
   // Weitere Wortersetzungspaare hier definieren
 };
 
