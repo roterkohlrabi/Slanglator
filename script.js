@@ -2,38 +2,38 @@ var replacements = {
   "Hallo": ["Hi", "Hey", "Guten Tag"],
   "Welt": ["Globus", "Erde", "Planet"],
 
-  "Ablehnung": ["Rejection", "Passes", "Declines"]
-  "Abwasser": ["Pissewasser", "Kackwasser"]
-  "Abwehr": ["Defence"]
-  "Abzweigung": ["Branch"]
-  "Achterbahn": ["Wilde Coaster"]
-  "Affe": ["Ape"]
-  "Aggression": ["Rage"]
-  "Ahnung": ["Clue", "Plan"]
-  "Aktion": ["Action", "Party"]
-  "Alarm": ["Erweckungssound des Todes"]
-  "Alkohol": ["Booze"]
-  "allgemnein": ["general"]
-  "Alptraum": ["Nightmare"]
-  "alt": ["old school", "antik", "boomerlich"]
-  "Altenheim": ["Boomerland", "Heim der Alten Säcke", "Heim der Antiken Menschen"]
-  "altmodisch": ["old school", "antik", "boomerlich"]
-  "Anblick": ["View"]
-  "Änderungen" ["Changes"]
-  "Anfänger" ["Noob", "Rookie", "Newbie"]
-  "ängstlich" ["eine P*ssy"]
-  "Anmeldung" ["Logins"]
-  "Ansicht": ["View"]
-  "arrogant": ["assi"]
-  "Ausblick": ["View"]
-  "Australien": ["Down Under"]
-  "Auswertung": ["Eval"]
-  "Auto": ["Kutsche"]
-  "Autobahn": ["Raserstrecke"]
-  "Autofahrer": ["Kutschenführer"]
-  "Autokino": ["Kutschenkino"]
-  "Autorennen": ["Kutschenracing"]
-  "Azubi": ["Jobnoob"]
+  "Ablehnung": ["Rejection", "Passes", "Declines"],
+  "Abwasser": ["Pissewasser", "Kackwasser"],
+  "Abwehr": ["Defence"],
+  "Abzweigung": ["Branch"],
+  "Achterbahn": ["Wilde Coaster"],
+  "Affe": ["Ape"],
+  "Aggression": ["Rage"],
+  "Ahnung": ["Clue", "Plan"],
+  "Aktion": ["Action", "Party"],
+  "Alarm": ["Erweckungssound des Todes"],
+  "Alkohol": ["Booze"],
+  "allgemnein": ["general"],
+  "Alptraum": ["Nightmare"],
+  "alt": ["old school", "antik", "boomerlich"],
+  "Altenheim": ["Boomerland", "Heim der Alten Säcke", "Heim der Antiken Menschen"],
+  "altmodisch": ["old school", "antik", "boomerlich"],
+  "Anblick": ["View"],
+  "Änderungen" ["Changes"],
+  "Anfänger" ["Noob", "Rookie", "Newbie"],
+  "ängstlich" ["eine P*ssy"],
+  "Anmeldung" ["Logins"],
+  "Ansicht": ["View"],
+  "arrogant": ["assi"],
+  "Ausblick": ["View"],
+  "Australien": ["Down Under"],
+  "Auswertung": ["Eval"],
+  "Auto": ["Kutsche"],
+  "Autobahn": ["Raserstrecke"],
+  "Autofahrer": ["Kutschenführer"],
+  "Autokino": ["Kutschenkino"],
+  "Autorennen": ["Kutschenracing"],
+  "Azubi": ["Jobnoob"],
   // Weitere Wortersetzungspaare hier definieren
 };
 
